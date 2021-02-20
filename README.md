@@ -2,12 +2,16 @@
 
 ## Prerequisite
 
-[MySQL](https://www.mysql.com) (required)
+* [MySQL](https://www.mysql.com) (required)
+* Create luca_edu database (`CREATE DATABASE luca_edu`)
+* Update username and password in ormconfig.json with your DB credentials
 
 ## Installation
 
 ```bash
 $ npm install
+$ npm run build
+$ npm run migration
 ```
 
 ## Running the app
